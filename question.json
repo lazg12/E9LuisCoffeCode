@@ -1,7 +1,14 @@
 {
   "category": "Deportes",
   "question": "¿Quién ganó el primer mundial?",
-  "options": ["Brazil", "Alemania",  "Uruguay", "Holanda", "Argentina"],
+  "options": ["Brazil", "Alemania",  "Uruguay"],
   "answer": 2,
   "explanation": "El país decretó festivo nacional después de que la Celeste se convirtiera en la primera campeona del mundo tras derrotar 4-2 a su vecina Argentina."
+},
+{
+  "category": "Cultura",
+  "question": "¿En qué continente se encuentra Francia?",
+  "options": ["África", "Europa",  "América"],
+  "answer": 1,
+  "explanation": "Francia se encuentra en el continente Europeo."
 }
