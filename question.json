@@ -1,7 +1,7 @@
 {
-  "category": "Cultura",
+  "category": "Deportes",
   "question": "¿Quién ganó el primer mundial?",
-  "options": ["Cerveza, lima/limón, sal, chile en polvo, salsa tipo inglesa, picante", "Cerveza, lima/limón y limon", "Cerveza, sal, tabasco y lima/limón"],
-  "answer": 0,
-  "explanation": "La michelada, originaria de México, nacida de la creatividad y el deseo de refrescar, se convirtió en una popular bebida que cautivó a los amantes de la cerveza con su combinación única de sabores y su espíritu festivo."
+  "options": ["Brazil", "Alemania",  "Uruguay", "Holanda", "Argentina"],
+  "answer": 2,
+  "explanation": "El país decretó festivo nacional después de que la Celeste se convirtiera en la primera campeona del mundo tras derrotar 4-2 a su vecina Argentina."
 }
