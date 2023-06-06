@@ -16,3 +16,19 @@ TAREAS CUMPLIDAS
 - 3) Se creó un archivo JSON de trivia.
 - 4) Se implementó un promp para ChatGPT
 - 5) Se subió los ejercicios al repositorio GitHub y se compartio en el chat “#todos-chat”.
+
+# CLASE 2
+TAREAS CUMPLIDAS
+- 1) Se organizó las tareas para preparar una fiesta de disfraces.
+- 2) Se ordenó las tarear de acuerdo a la razón .
+- 3) Se creó un archivo JSON de trivia.
+- 4) Se implementó un promp para ChatGPT
+- 5) Se subió los ejercicios al repositorio GitHub y se compartio en el chat “#todos-chat”.
+
+# CLASE 1
+TAREAS CUMPLIDAS
+- 1) Se tranformó el texto en archivo JSON.
+- 2) Se creó un archivo JSON con los datos de nuestro grupo 9 CoffeCode.
+- 3) Se creó un archivo JSON de trivia.
+- 4) Se implementó un promp para ChatGPT
+- 5) Se subió los ejercicios al repositorio GitHub y se compartio en el chat “#todos-chat”.
