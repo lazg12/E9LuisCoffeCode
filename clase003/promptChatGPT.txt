@@ -1,6 +1,0 @@
-No pongas introducción solo crea por favor solo el código de un archivo JSON con preguntas y respuestas para un juego de trivia con tema de [Tecnologia].
-Cada pregunta debe tener propiedades como el enunciado de la pregunta, reglas del juego con este mensaje:
-El juego de trivia tendrá cinco preguntas sobre [Tema de la trivia], en las cuales habrá cuatro opciones de respuesta.
-los jugadores deben seleccionar la correcta, cada pregunta vale 2 puntos, por lo tanto, al final de este se hará la sumatoria
-y ganara el jugador con mayor cantidad de puntos ", este mensaje introductorio: "¡Disfruta del juego de trivia sobre [Tema de la trivia]
-y que gane el mejor jugador!”, cinco preguntas, cuatro opciones de respuesta, la respuesta correcta y una explicación detallada de por qué esa opción es la correcta
