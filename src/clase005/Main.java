@@ -7,12 +7,55 @@ public class Main {
         // Variables para todas las tareas
         Scanner cargarDatos = new Scanner(System.in);
 
+        // 1) Calculadora de edad de perros:
+        // ENUNCIADO: Pídele al usuario que ingrese la edad de su perro.
+        // Convierte esa edad a años de perro (se dice que 1 año humano equivale a 7 años de perro).
+        System.out.println();
+        System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+        System.out.println("ACTIVIDAD 1: Programa para calcular la edad de un perro en años humano.");
+        System.out.println(""); // Salto de línea
+        System.out.println("BIENVENIDO A LA CALCULADORA DE EDAD DE PERROS");
+        System.out.print("Ingrese cuántos años de vida tiene el perro: ");
+        // Crear variables para la actividad 1.
+        Double aniosDelPerro = cargarDatos.nextDouble(); // Ingreso de años de vida del perro.
+        Double edadDelPerro = aniosDelPerro * 7; // Conversión de años perros a años humanos.
+        System.out.println("");
+        System.out.println("DETALLE DE LA CONVERSIÓN DE AÑOS PERROS A AÑOS HUMANOS");
+        System.out.println("Años de vida del perro: " + aniosDelPerro);
+        System.out.println("Edad del perro en años humano: " + edadDelPerro);
+        System.out.println("");
+        System.out.println("Entonces el perro con " + aniosDelPerro + " años de vida equivale a " + edadDelPerro + " años humano.");
+
+
+        // 2) Conversor de millas a kilómetros:
+        // ENUNCIADO: Pídele al usuario que ingrese una distancia en millas.
+        // Convierte la distancia a kilómetros utilizando la fórmula: kilómetros = millas * 1.60934.
+        // Muestra la distancia en kilómetros al usuario.
+        System.out.println();
+        System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+        System.out.println("ACTIVIDAD 2: Programa para convertir las millas en kilómetros.");
+        System.out.println(""); // Salto de línea
+        System.out.println("BIENVENIDO AL CONVERSOR DE MILLAS A KILÓMETROS");
+        System.out.print("Ingrese la cantidad de millas: ");
+        // Crear variables para la actividad 2.
+        Double millas = cargarDatos.nextDouble(); // Ingreso de la cantidad de millas
+        Double km = millas * 1.60934; // Conversión de millas a kilómetros
+        System.out.println("");
+        System.out.println("DETALLE DE LA CONVERSIÓN");
+        System.out.println("Millas: " + millas);
+        System.out.println("Kilómetros: " + km);
+        System.out.println("");
+        System.out.println("Entonces " + millas + " millas equivale a " + km + " km");
+
+
+
         // 3) Calculadora de descuento:
         // ENUNCIADO: Pídele al usuario que ingrese el precio original de un producto.
         // Pídele al usuario que ingrese el porcentaje de descuento.
         // Calcula el precio final después de aplicar el descuento utilizando la fórmula: precioFinal = precioOriginal - (precioOriginal * descuento / 100).
         // Muestra el precio final al usuario.
-        System.out.println(""); // Salto de línea
+        System.out.println();
+        System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
         System.out.println("ACTIVIDAD 3: Programa para calcular el descuento y precio final a pagar.");
         System.out.println(""); // Salto de línea
         System.out.println("BIENVENIDO QUERIDO CLIENTE");
@@ -34,7 +77,8 @@ public class Main {
         // ENUNCIADO: Pídele al usuario que ingrese el total de la cuenta en un restaurante.
         // Pídele al usuario que ingrese el porcentaje de propina que desea dejar.
         // Calcula el monto de la propina utilizando la fórmula: propina = totalCuenta * (porcentajePropina/ 100).
-        System.out.println(""); // Salto de línea
+        System.out.println();
+        System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
         System.out.println("ACTIVIDAD 4: Programa para calcular la propina en función del porcentaje que el cliente desee.");
         System.out.println(""); // Salto de línea
         System.out.println("BIENVENIDO QUERIDO CLIENTE");
@@ -116,9 +160,6 @@ public class Main {
         System.out.println("COMPARACIONES");
         System.out.println("El número que ingresaste es: " + numeroDelUsuario);
         System.out.println("El número ganador es: " + numeroIncognito);
-
-
-
 
     }
 }
