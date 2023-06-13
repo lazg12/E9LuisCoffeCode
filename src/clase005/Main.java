@@ -107,9 +107,14 @@ public class Main {
         System.out.println("Ingresa el número que creas que es el ganador.");
         System.out.print("Tu respuesta es: ");
         // Crear variables para la actividad 5.
+
         Integer numeroDelUsuario = cargarDatos.nextInt(); // El participante ingresa el número
-        Integer numeroIncognito = (int) (Math.random() * 99) + 1; // 99 es el límite y se suma 1 para que no salga el cero
+        // Integer numeroIncognito = (int) (Math.random() * 99) + 1; // 99 es el límite y se suma 1 para que no salga el cero
+
+        Integer numeroIncognito = (int) Math.floor(Math.random() * 99) + 1; // Math.floor quita los decimales el más 1 es para que no salga cero
         System.out.println(""); // Salto de línea
+
+
         if(numeroDelUsuario == numeroIncognito){
             System.out.println("");
             System.out.println("FELICITACIONES: Ganaste el concurso.");
